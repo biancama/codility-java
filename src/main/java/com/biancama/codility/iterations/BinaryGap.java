@@ -6,7 +6,8 @@ package com.biancama.codility.iterations;
 public class BinaryGap {
 
 	public int solution(int n) {
-		return solution(n, 0, 0);
+		//return solution(n, 0, 0);
+		return iterativeSolution(n);
 	}
 
 	private int solution(int n, int max, int current) {
